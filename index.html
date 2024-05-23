@@ -1,7 +1,32 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Web Font Sample</title>
+    <style media="screen, print">
+	    @font-face {
+            font-family: "Bitstream Vera Serif Bold";
+            src: url("https://mdn.github.io/css-examples/web-fonts/VeraSeBd.ttf");
+        }
+        @font-face {
+            font-family: "Montserrat";
+            src: url("https://github.com/xxformat/maillib/montserrat-variablefont_wght-webfont.woff2");
+        }
+
+        h1 {
+            font-family: "Bitstream Vera Serif Bold";
+        }	  
+
+        p {
+            font-family: "Montserrat";
+        }
+    </style>
+  </head>
+  <body>
+    <h1>This is a test (Bitstream Vera Serif Bold)</h1>
+    <p>This is a test (Montserrat Bold)</p>
+    This is a test (Default)
+  </body>
 </html>
+
